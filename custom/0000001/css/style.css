@@ -130,7 +130,7 @@ h1 {
 }
 
 @media(min-width: 1300px) {
-    .banner__card__background__image {
+    .banner__card__background-image {
         display: block;
     }
 }
