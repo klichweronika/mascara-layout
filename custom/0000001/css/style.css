@@ -23,7 +23,7 @@ h1 {
     }
 }
 
-.main-header_title {
+.main-header__title {
     font-size: 30px;
     line-height: 45px;
     text-align: center;
@@ -33,12 +33,12 @@ h1 {
 }
 
 @media(min-width: 600px) {
-    .main-header_title {
+    .main-header__title {
         font-size: 35px;
     }
 }
 
-.main-header_text {
+.main-header__text {
     line-height: 30px;
     text-align: justify;
     padding: 20px;
@@ -47,7 +47,7 @@ h1 {
 }
 
 @media(min-width: 600px) {
-    .main-header_text {
+    .main-header__text {
         text-align: center;
     }
 }
@@ -66,25 +66,26 @@ h1 {
         align-items: flex-start;
     }
 }
-.advantages_card {
+
+.advantages__card {
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 25px;
 }
 
-.advantages_card_img {
+.advantages__card-img {
     height: 350px;
     width: 430px;
 }
 
-.advantages_card_title {
+.advantages__card-title {
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 30px;
 }
 
-.advantages_card_text {
+.advantages__card-text {
     font-size: 18px;
     margin: 13px 0;
     width: 300px;
@@ -105,14 +106,14 @@ h1 {
     }
 }
 
-.banner_card{
+.banner__card {
     height: 580px;
     align-items: center;
     display: contents;
 }
 
 
-.banner_card_background{
+.banner__card__background {
     background-image: url(../assets/img/background-eye.png);
     width: 100%;
     height: 600px;
@@ -121,7 +122,7 @@ h1 {
     background-repeat: no-repeat;
 }
 
-.banner_card_background_image {
+.banner__card__background-image {
     position: absolute;
     right: -100px;
     top: -56px;
@@ -129,19 +130,19 @@ h1 {
 }
 
 @media(min-width: 1300px) {
-    .banner_card_background_image {
+    .banner__card__background__image {
         display: block;
     }
 }
 
-.banner_card_container {
+.banner__card__container {
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: #fdc100;
 }
 
-.banner_card_container_details {
+.banner__card__container__details {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,12 +152,12 @@ h1 {
 }
 
 @media(min-width: 1100px) {
-    .banner_card_container_details {
+    .banner__card__container__details {
         margin-left: 100px
     }
 }
 
-.banner_card_container_details_title {
+.banner__card__container__details-title {
     text-transform: uppercase;
     margin-bottom: 35px;
     font-size: 40px;
@@ -164,13 +165,13 @@ h1 {
 
 }
 
-.banner_card_container_details_text {
+.banner__card__container__details-text {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 40px;
 }
 
-.banner_card_container_details_logo {
+.banner__card__container__details-logo {
     width: 130px;
     height: 130px
 }
